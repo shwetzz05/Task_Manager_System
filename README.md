@@ -1,2 +1,10 @@
-# Task_Manager_System
-The Task Manager System is a web-based application designed to help users efficiently create, organize, and track their daily tasks or work activities. Developed using PHP, HTML, and MySQL, this system provides an interactive and user-friendly interface for managing tasks and deadlines effectively.
+ Setup and Execution Instructions
+
+To run this project locally, you must have XAMPP installed and follow these steps:
+A. Database Setup
+Start Services: Open the XAMPP Control Panel and start Apache and MySQL.
+Import Database: Open phpMyAdmin in your browser (e.g., http://localhost/phpmyadmin/).
+Click the Import tab.
+Click Choose File and select the attached database export file: task_manager_db.sql.
+Click Go at the bottom to create the task_manager_db database and its necessary tables (tasks).
+
